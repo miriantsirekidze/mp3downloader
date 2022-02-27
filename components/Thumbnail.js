@@ -16,7 +16,7 @@ const Thumbnail = (props) => {
       params: {id: props.id},
       headers: {
         'x-rapidapi-host': 'youtube-mp36.p.rapidapi.com',
-        'x-rapidapi-key': '8c265cf982msha1c4ad29e9004bcp1fb48bjsnbf230d2ee995'
+        'x-rapidapi-key': // Insert your rapid API key here, still haven't found a way to censor API keys and for some reason dotenv doesn't work for me  
       }
     };
     
